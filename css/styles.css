@@ -1,0 +1,25 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 10.5rem;
+          column-gap: 10.5rem;
+  padding-top: 1rem;
+  height: 700px;
+  background-image: url(/images/Header.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav-link {
+  color: #d6d4da !important;
+}
+
+.nav-link active {
+  text-decoration: underline !important;
+}
+/*# sourceMappingURL=styles.css.map */
