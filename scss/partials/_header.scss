@@ -1,0 +1,85 @@
+header {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10rem;
+  height: 700px;
+  background-image: url(/images/Header.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+// -------------- NAV ---------------------- //
+
+nav {
+  margin-top: 1rem;
+  display: flex;
+  column-gap: 8rem;
+  justify-content: center;
+}
+
+.nav-link {
+  color: $tertiary-color !important;
+  opacity: 58;
+}
+
+.active {
+  color: $secondary-color !important;
+}
+
+// -------------- BUTTONS ---------------------- //
+
+.btn {
+  color: $secondary-color;
+}
+
+.btn-light {
+  background-color: transparent;
+  border: none;
+  border-radius: 20px;
+}
+
+.btn-outline-light {
+  border-radius: 20px !important;
+}
+
+.btn-danger {
+  background-color: transparent;
+  color: $primary-color;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  width: 220px;
+  height: 50px;
+  letter-spacing: 2px;
+  border-width: 2.5px;
+}
+
+.btn-danger:hover {
+  background-color: $primary-color;
+  border-color: $primary-color;
+}
+
+// -------------- Fonts ---------------------- //
+
+h1 {
+  font-size: 4rem;
+}
+
+.intro p {
+  font-size: 0.95rem;
+}
+
+// -------------- others ---------------------- //
+
+.intro {
+  margin-left: 11rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  color: $secondary-color;
+}
+
+span {
+  color: $primary-color;
+}
